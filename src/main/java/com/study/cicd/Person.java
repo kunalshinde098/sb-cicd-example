@@ -2,8 +2,10 @@ package com.study.cicd;
 
 import lombok.Data;
 import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 
+/**
+ * This is my person object
+ */
 @Data
 public class Person {
 
