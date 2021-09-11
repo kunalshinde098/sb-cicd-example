@@ -14,7 +14,7 @@ public class HelloWorldCtrl {
      */
     @GetMapping(value = "/person/{name}", produces ="application/json")
     public Person getPerson(@PathVariable String name){
-        return  new Person(name, "Shinde");
+        return  new Person(name, "Shinde*");
     }
 
 }
